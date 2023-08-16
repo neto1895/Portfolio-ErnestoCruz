@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path='/ReactPortfolio/' element={<AboutMe />} />
+          <Route exact path='/portfolio-ernesto_cruz/' element={<AboutMe />} />
           <Route exact path='/about-me' element={<AboutMe />} />
           <Route exact path='/portfolio' element={<Portfolio />} />
           <Route exact path='/contact' element={<ContactMe />} />

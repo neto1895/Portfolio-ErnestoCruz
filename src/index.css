@@ -1,0 +1,170 @@
+/* Set default styles for the whole page */
+* {
+  box-sizing: border-box;
+}
+/* This helps to keep the color palette consistent and makes it easy to change the colors globally by just modifying the variable's value. */
+:root{
+  --color1: #cfbb61;   
+  --color2: rgb(31 36 36);
+  --color3: #fff;
+  --color4: #333;
+}
+
+
+
+/* Header */
+header {
+background-color: var(--color4);
+color: var(--color1);
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+flex-wrap: wrap;
+
+align-items: center;
+padding: 10px 10px 5px 00px;
+}
+/* inside the header */
+  header h1 {
+  margin: 0;
+  padding: 2px 2px 2px 2px;
+  background-color: var(--color1);
+  color: var(--color4);
+  }
+
+    /* toggle code */
+    body.dark {
+    background-color: var(--color2);
+    color: var(--color3);
+    }
+    .checkbox {
+    opacity: 0;
+    position:absolute;
+    }
+    .label {
+    width: 20px;
+    height: 5px;
+    background-color:var(--color2);
+    display: flex;
+    border-radius:20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    box-sizing:unset;
+    }
+    .ball {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color3);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+    }
+    .checkbox:checked + .label .ball{   /*  target the elemenent after the label*/
+    transform: translateX(15px);
+    }
+    .label i {
+    font-size: 15px;
+    color: var(--color1);
+    font-weight: bold;
+    font-style: normal;
+    }
+  /* here ends the toggle code */
+
+/* Navbar style */
+      
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+  }
+  .navBar p {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color1);
+  }
+  .navBar p::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color1);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease; 
+  }
+  .navBar p:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* About Me */
+
+.profilePic {
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid var(--color1);
+}
+
+/* Portfolio */
+.mainTitle {
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.projectTitle {
+  font-size: 25px;
+  
+}
+
+.projectsDeployed {
+  min-height: 200px;
+  max-height: 500px;
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  border: 3px solid var(--color1);
+  margin-right: 30px;
+  filter:brightness(0.5);
+  transition: filter 0.3s ease;
+}
+img:hover {
+  filter: brightness(1);
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 25px;
+}
+
+.projectDetails a {
+  color: var(--color1);
+  text-decoration: none;
+}
+
+
+/* Contact */

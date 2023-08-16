@@ -1,10 +1,10 @@
 import React from "react";
-import avatar from "../../assets/avatar.svg";
+import avatar from "../../assets/profilepic.png";
 
 const aboutMe = () => {
     return (
         <div className="container" id="about-me">
-            <img src={avatar} alt="avatar" />
+            <img src={avatar} alt="profilePic" className="profilePic"/>
             <h3>Hello and welcome to my portfolio! I am Ernesto Cruz Rosales</h3>
             
             <p>I am a dynamic professional with experience in web development and the chemical industry. I have a degree in Chemical Engineering and several years of experience as a production manager, where I developed my skills in leadership, process improvement, and problem-solving.

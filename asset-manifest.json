@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-ernesto_cruz/static/css/main.c70594d2.css",
+    "main.js": "/portfolio-ernesto_cruz/static/js/main.36bc22f3.js",
+    "static/media/08-SVGgenerator.gif": "/portfolio-ernesto_cruz/static/media/08-SVGgenerator.1fc22e473a6399c604e6.gif",
+    "static/media/07-noteTaker.gif": "/portfolio-ernesto_cruz/static/media/07-noteTaker.b71d5d2ac385b860f2d3.gif",
+    "static/media/04-techblog.gif": "/portfolio-ernesto_cruz/static/media/04-techblog.50d095db756ef64c169b.gif",
+    "static/media/09-weatherDashboard.gif": "/portfolio-ernesto_cruz/static/media/09-weatherDashboard.a157c1ff620cb4ed0cc8.gif",
+    "static/media/01-salesTracker.gif": "/portfolio-ernesto_cruz/static/media/01-salesTracker.d412bda6a533e1e47362.gif",
+    "static/media/profilepic.png": "/portfolio-ernesto_cruz/static/media/profilepic.5dc7747c9515b79712a3.png",
+    "static/media/10-quizPage.gif": "/portfolio-ernesto_cruz/static/media/10-quizPage.5381c92f19898d5d8967.gif",
+    "static/media/02-jate.png": "/portfolio-ernesto_cruz/static/media/02-jate.de539e98902a6bb03da4.png",
+    "static/media/ErnestoCruzRosales.pdf": "/portfolio-ernesto_cruz/static/media/ErnestoCruzRosales.3eb32d2087f1ba4a66db.pdf",
+    "static/media/03-socialAPI.png": "/portfolio-ernesto_cruz/static/media/03-socialAPI.b92324e32bdfe60d91a1.png",
+    "static/media/05-ecommerceAPI.png": "/portfolio-ernesto_cruz/static/media/05-ecommerceAPI.3fc4e5dbfdb4f6e19d77.png",
+    "static/media/06-employeeManager.png": "/portfolio-ernesto_cruz/static/media/06-employeeManager.0555827a6c45b1f376d7.png",
+    "index.html": "/portfolio-ernesto_cruz/index.html",
+    "main.c70594d2.css.map": "/portfolio-ernesto_cruz/static/css/main.c70594d2.css.map",
+    "main.36bc22f3.js.map": "/portfolio-ernesto_cruz/static/js/main.36bc22f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c70594d2.css",
+    "static/js/main.36bc22f3.js"
+  ]
+}

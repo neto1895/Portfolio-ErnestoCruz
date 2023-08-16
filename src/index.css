@@ -168,3 +168,138 @@ img:hover {
 
 
 /* Contact */
+
+.container-contact {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-contact h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.container-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contact label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.container-contact input,
+.container-contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  transition: border-color 0.3s;
+}
+
+.container-contact input[type='email'],
+.container-contact input[type='text'] {
+  width: 100%;
+}
+
+.container-contact textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.container-contact input:focus,
+.container-contact textarea:focus {
+  border-color: #007bff;
+}
+
+.container-contact p {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+.container-contact button[type='submit'] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container-contact button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+
+/* skills */
+
+.container-resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container-resume .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container-resume h2 {
+  font-size: 24px;
+}
+
+.container-resume button {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container-resume button:hover {
+  background-color: var(--color4);
+}
+
+.container-resume a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-resume .resume {
+  display: flex;
+}
+
+.container-resume .resume-item {
+  flex: 1;
+}
+
+.container-resume .front-end h3,
+.container-resume .back-end h3,
+.container-resume .tools h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.container-resume ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container-resume ul li {
+  margin-bottom: 5px;
+}
+

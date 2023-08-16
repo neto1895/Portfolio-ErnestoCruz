@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-ernesto_cruz/static/css/main.c70594d2.css",
-    "main.js": "/portfolio-ernesto_cruz/static/js/main.36bc22f3.js",
+    "main.css": "/portfolio-ernesto_cruz/static/css/main.4607afaa.css",
+    "main.js": "/portfolio-ernesto_cruz/static/js/main.50b9506f.js",
     "static/media/08-SVGgenerator.gif": "/portfolio-ernesto_cruz/static/media/08-SVGgenerator.1fc22e473a6399c604e6.gif",
     "static/media/07-noteTaker.gif": "/portfolio-ernesto_cruz/static/media/07-noteTaker.b71d5d2ac385b860f2d3.gif",
     "static/media/04-techblog.gif": "/portfolio-ernesto_cruz/static/media/04-techblog.50d095db756ef64c169b.gif",
@@ -15,11 +15,11 @@
     "static/media/05-ecommerceAPI.png": "/portfolio-ernesto_cruz/static/media/05-ecommerceAPI.3fc4e5dbfdb4f6e19d77.png",
     "static/media/06-employeeManager.png": "/portfolio-ernesto_cruz/static/media/06-employeeManager.0555827a6c45b1f376d7.png",
     "index.html": "/portfolio-ernesto_cruz/index.html",
-    "main.c70594d2.css.map": "/portfolio-ernesto_cruz/static/css/main.c70594d2.css.map",
-    "main.36bc22f3.js.map": "/portfolio-ernesto_cruz/static/js/main.36bc22f3.js.map"
+    "main.4607afaa.css.map": "/portfolio-ernesto_cruz/static/css/main.4607afaa.css.map",
+    "main.50b9506f.js.map": "/portfolio-ernesto_cruz/static/js/main.50b9506f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c70594d2.css",
-    "static/js/main.36bc22f3.js"
+    "static/css/main.4607afaa.css",
+    "static/js/main.50b9506f.js"
   ]
 }

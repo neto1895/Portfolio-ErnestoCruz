@@ -8,10 +8,19 @@ import noteTaker from '../../assets/07-noteTaker.gif'
 import SVGgenerator from '../../assets/08-SVGgenerator.gif'
 import weatherDashboard from '../../assets/09-weatherDashboard.gif'
 import quizPage from '../../assets/10-quizPage.gif'
+import cre8ive from '../../assets/11-cre8ive.png'
 
 
 
 export const projectData = [
+    {
+        _id: 11,
+        title: "Cre8ive - Share your ideas",
+        description: "Connect, Collaborate, and Trade with like-minded individuals in our community-driven platform!",
+        image: cre8ive,
+        deploy: "https://salty-wave-79315-cd2465ff485d.herokuapp.com/",
+        github: "https://github.com/jonathAnC0bosR/Cre8tive",
+    },
     {
        _id: 1,
        title: "Sales Tracker",

@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-ernesto_cruz/static/css/main.4607afaa.css",
-    "main.js": "/portfolio-ernesto_cruz/static/js/main.50b9506f.js",
+    "main.js": "/portfolio-ernesto_cruz/static/js/main.20c01c83.js",
     "static/media/08-SVGgenerator.gif": "/portfolio-ernesto_cruz/static/media/08-SVGgenerator.1fc22e473a6399c604e6.gif",
     "static/media/07-noteTaker.gif": "/portfolio-ernesto_cruz/static/media/07-noteTaker.b71d5d2ac385b860f2d3.gif",
+    "static/media/11-cre8ive.png": "/portfolio-ernesto_cruz/static/media/11-cre8ive.88a917b80259e11b7e84.png",
     "static/media/04-techblog.gif": "/portfolio-ernesto_cruz/static/media/04-techblog.50d095db756ef64c169b.gif",
     "static/media/09-weatherDashboard.gif": "/portfolio-ernesto_cruz/static/media/09-weatherDashboard.a157c1ff620cb4ed0cc8.gif",
     "static/media/01-salesTracker.gif": "/portfolio-ernesto_cruz/static/media/01-salesTracker.d412bda6a533e1e47362.gif",
@@ -16,10 +17,10 @@
     "static/media/06-employeeManager.png": "/portfolio-ernesto_cruz/static/media/06-employeeManager.0555827a6c45b1f376d7.png",
     "index.html": "/portfolio-ernesto_cruz/index.html",
     "main.4607afaa.css.map": "/portfolio-ernesto_cruz/static/css/main.4607afaa.css.map",
-    "main.50b9506f.js.map": "/portfolio-ernesto_cruz/static/js/main.50b9506f.js.map"
+    "main.20c01c83.js.map": "/portfolio-ernesto_cruz/static/js/main.20c01c83.js.map"
   },
   "entrypoints": [
     "static/css/main.4607afaa.css",
-    "static/js/main.50b9506f.js"
+    "static/js/main.20c01c83.js"
   ]
 }
